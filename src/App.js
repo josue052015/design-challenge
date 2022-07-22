@@ -1,24 +1,38 @@
 import logo from './logo.svg';
 import './App.css';
+import { Navbar, SearchElements, Card, Footer } from './components'
+import './responsive.styles.css'
 
 function App() {
+
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    <>
+      <Navbar />
+      <div className='wrapper'>
+        <div>
+          <h1>Condimentum consectetur </h1>
+        </div>
+        <div>
+          <SearchElements />
+        </div>
+      </div>
+
+      <div className='content'>
+        <div className='wrap'>
+          <div className='card-group'>
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+            <Card />
+          </div>
+        </div>
+      </div>
+      <Footer />
+    </>
   );
 }
 

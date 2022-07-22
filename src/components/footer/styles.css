@@ -1,0 +1,43 @@
+
+.main-footer {
+    color: white;
+    background: #303141;
+    padding-top: 3em;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+
+}
+.footer-container{
+    display: flex;
+    width: 90%;
+    justify-content: space-evenly;
+    margin: auto;
+    padding-bottom: 50px;
+    border-bottom: 1px solid #ccc;
+}
+
+.content-footer {
+    text-align: center;
+}
+
+.content-footer h4 {
+    color: #fff;
+    padding-bottom: 5px;
+    margin-bottom: 10px;
+}
+
+.content-footer p {
+    color: #ccc;
+}
+
+.content-footer a {
+    color: #ccc;
+}
+
+.final-title{
+    text-align: center;
+    font-size: 24px;
+    margin: 20px 0 0 0;
+    color: #9e9797;
+}
